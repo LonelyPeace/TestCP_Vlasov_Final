@@ -10,7 +10,7 @@
   }
 
    .txttitle {
-    font: size 120px;
+    font-size: 120px;
     display: block;
     font-style: normal;
     font-family: "Press Start 2P", cursive;
@@ -54,6 +54,7 @@ label {
     display: block;
     color: rgb(92, 92, 156);
     margin-left: 10px;
+    font-size: 16px;
     font-family: "Poiret One", cursive;
     font-weight:bold;
     text-shadow: 1px 1px 1px white;
