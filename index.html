@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" href="/Icon.png" type="image/png">
+    <title>Дай денег</title>
+    <script src="script.js"></script>
+    <script src="https://widget.cloudpayments.ru/bundles/cloudpayments"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poiret+One&family=Press+Start+2P&display=swap">
+</head>
+<body class="background">
+    <h1 class="txttitle">Отдайте все ваши деньги</h1>
+    <h3 class="txtmain">Если Вам грустно, плохо оттого, что не можете найти куда деть лишние деньги...
+        Если вы нуждаетесь в человеке, с которым можно ими поделиться...
+        Любыми суммами, в любой валюте. Вы всегда можете обратиться ко мне и я обещаю, что постараюсь помочь и разделить с Вами ваши доходы.
+        Не стесняйтесь донатить мне. В любое время.
+        Я конечно не профессиональный банкир из кремниевой долины, но по-человечески постараюсь помочь в любой непростой и, казалось бы, безвыходной ситуации.
+    </h3>
+    <div >
+        <img src="CSS/kisik.png"  alt="WhoRU">
+    </div>
+    <div class="form-group">
+        <label for="firstName">Имя</label>
+        <input type="text" id="firstName" placeholder="Александр">
+    </div>
+    
+    <div class="form-group">
+        <label for="lastName">Фамилия</label>
+        <input type="text" id="lastName" placeholder="Власов">
+    </div>
+    
+    <div class="form-group">
+        <label>Номер телефона</label>
+        <input type="tel" id="phone" placeholder="+7(999)999-99-99">
+    </div>
+    
+    <div class="form-group">
+        <label for="email">Почта</label>
+        <input type="email" id="email" placeholder="aiv070500@gmail.com">
+    </div>
+    
+    <div class="form-group">
+        <label for="amount">Сумма</label>
+        <input type="text" id="amount" placeholder="25000">
+        <label for="amount">Валюта</label>
+        <select name="currency">
+            <option>RUB</option>
+            <option>USD</option>
+        </select>
+    </div>
+    
+    <div class="form-group">
+        <label for="description">Назначение денег</label>
+        <input type="text" id="description" placeholder="На Доширак тестировщику">
+    </div>
+    
+    
+    <div class="form-group">
+        <label for="recurrent">Подписка</label>
+        <input type="checkbox" id="recurrent">
+    </div>
+
+<input type="button" class="btn" id="payButton" value="Оплатить">
+<div class="stoppay">
+    Вы можете остановить регулярные платежи в любой момент на <a href="https://my.cloudpayments.ru/unsubscribe"
+                                                                 target="_blank">сайте системы CloudPayments</a>.
+</div>
+
+</body>
+</html>

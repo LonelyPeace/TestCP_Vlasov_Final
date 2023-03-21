@@ -1,0 +1,69 @@
+.background {
+    background-image: url(1567351874_15542186834601.gif);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    backdrop-filter: blur(8px);
+    margin: auto;
+  }
+
+   .txttitle {
+    font: size 120px;
+    display: block;
+    font-style: normal;
+    font-family: "Press Start 2P", cursive;
+    text-shadow: 2px 2px 2px white;
+    margin-left: 10px;
+  }
+
+  .txtmain {
+    display: block;
+    margin-left: 10px;
+    font-style: normal;
+    font-family: "Press Start 2P", cursive;
+    text-shadow: 2px 2px 2px white;
+    text-align:inherit
+  }
+  
+  .btn {
+    color: white;
+    background: #7d5ef9;
+    margin-left: 10px;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #3c6bbd;
+    transition: all 0.5s ease-out;
+    margin-left: 10px;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    color: rgb(92, 92, 156);
+}
+
+.form-group {
+    display: block;
+    color: rgb(92, 92, 156);
+    margin-left: 10px;
+    font-family: "Poiret One", cursive;
+    font-weight:bold;
+    text-shadow: 1px 1px 1px black;
+}
+
+.stoppay {
+  display: block;
+    color: rgb(92, 92, 156);
+    margin-left: 10px;
+    font-family: "Poiret One", cursive;
+    font-weight:bold;
+    text-shadow: 1px 1px 1px white;
+}
